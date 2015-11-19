@@ -29,7 +29,7 @@ RUN set -x \
 		--without-tdb \
 		--enable-krbV-uam \
 		--enable-fhs \
-	&& find "/usr/src/netatalk/patches" -name "*.patch" -exec patch -p0 -i {} \; \
+	&& find "/usr/src/netatalk/patches" -name "*.patch" -exec patch -p1 -i {} \; \
 	&& make pkgconfdir="/etc/netatalk" check \
 	&& make install \
 	&& make clean \

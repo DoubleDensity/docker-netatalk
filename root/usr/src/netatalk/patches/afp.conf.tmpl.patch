@@ -1,5 +1,13 @@
---- config/afp.conf.tmpl	2013-10-28 09:43:13.000000000 -0400
-+++ config/afp.conf.tmpl	2015-11-18 23:37:16.000000000 -0500
+commit 278b9aaeda2d0e8e6e921ba6ee87e8bbcf0a1009
+Author: John LaRue <john.larue@quantum.com>
+Date:   Thu Nov 19 11:33:43 2015 -0500
+
+    updating template
+
+diff --git a/config/afp.conf.tmpl b/config/afp.conf.tmpl
+index b2ee186..754d99e 100644
+--- a/config/afp.conf.tmpl
++++ b/config/afp.conf.tmpl
 @@ -5,8 +5,25 @@
  [Global]
  ; Global server settings
@@ -28,4 +36,4 @@
 +
 +[Builds]
 +path = /builds
-+
+\ No newline at end of file
