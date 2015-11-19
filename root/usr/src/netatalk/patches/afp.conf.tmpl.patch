@@ -1,13 +1,7 @@
-commit 278b9aaeda2d0e8e6e921ba6ee87e8bbcf0a1009
-Author: John LaRue <john.larue@quantum.com>
-Date:   Thu Nov 19 11:33:43 2015 -0500
-
-    updating template
-
-diff --git a/config/afp.conf.tmpl b/config/afp.conf.tmpl
+diff --git config/afp.conf.tmpl config/afp.conf.tmpl
 index b2ee186..754d99e 100644
---- a/config/afp.conf.tmpl
-+++ b/config/afp.conf.tmpl
+--- config/afp.conf.tmpl
++++ config/afp.conf.tmpl
 @@ -5,8 +5,25 @@
  [Global]
  ; Global server settings
