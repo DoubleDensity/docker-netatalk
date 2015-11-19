@@ -23,5 +23,8 @@
  
 -; [My AFP Volume]
 -; path = /path/to/volume
-+[My AFP Volume]
-+path = /media
++[Repos]
++path = /repos
+
++[Builds]
++path = /builds
