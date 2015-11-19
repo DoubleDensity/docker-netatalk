@@ -25,6 +25,5 @@
 -; path = /path/to/volume
 +[Repos]
 +path = /repos
-
 +[Builds]
 +path = /builds
